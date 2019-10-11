@@ -3,6 +3,16 @@ body {
   line-height: 1.8;
   color: #f5f6f7;
 }
+*{box-sizing: border-box;}
+
+
+header{
+  position: fixed;
+  padding: 0px 0px 10px 0px;
+  width:100%;
+  background-color: rgba(48,48,48,0.5);
+}
+
 p {font-size: 16px;}
 .margin {margin-bottom: 45px;}
 .bg-1 {
@@ -36,4 +46,10 @@ p {font-size: 16px;}
 }
 .navbar-nav  li a:hover {
   color: #1abc9c !important;
+}
+
+
+.navbar-nav  li a.active {
+  background: #fed136;
+  border-radius: 3px;
 }
